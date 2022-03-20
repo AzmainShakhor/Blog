@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.main{
+    background:#FEFFF5 ;
+    margin: auto;
+
+}
+h1{
+font-size: 48px;
+color: #0A8080;
+font-weight: 700;
+}
+
+.p1{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px ;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.button{
+text-decoration: none;
+padding: 10px 40px;
+color: white;
+background-color: #0A8080;
+border-radius: 10px;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+ 
+
+}
+.blogs{
+   padding-bottom: 50px;
+   max-width: 1280px;
+   margin: auto;
+}
+h2{
+    max-width: 900px;
+    text-align: center;
+    padding: 65px 200px;
+    font-size: 36px;
+    color: #0A8080;
+    font-weight: 700;
+}
+h3{
+    padding-top: 4rem;
+}
+.box1{
+    max-width: 900px;
+position: relative;
+background: #FEFFF5;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+margin: auto;
+}
+.box1 h3 , p , .button2{
+margin-left: 4rem;
+}
+h3{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+
+.button2{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+    background-color: #0A8080;
+    border-radius: 10px;
+}
+    .pad{
+        padding-top: 20px;
+        padding-bottom: 4rem;
+    }
+.last{
+    font-size: 18px ;
+    font-weight: 400;
+    background-color: #0A8080 ;
+    color: white;
+    text-align: center;
+    padding:20px ;
+    margin: auto;
+}
+
+.main img{
+    max-width: 100%;
+    margin: auto;
+}
+.button:hover{
+    background-color: #806fe4;
+}
+.button2:hover{
+    background-color: #806fe4;
+}
+
+@media(max-width:950px){
+    h1{
+        font-size: 24px;
+    }
+}
